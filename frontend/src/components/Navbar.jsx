@@ -6,7 +6,7 @@ import {MoonIcon, PlusSquareIcon, SunIcon} from "@chakra-ui/icons"
 const Navbar = () => {
     const {colorMode, toggleColorMode} = useColorMode();
   return (
-    <Container maxW={"1140px"} px={4} bg={useColorModeValue("gray.100", "gray.900")}>
+    <Container maxW={"1140px"} px={4} bg={useColorModeValue("gray.50", "blackAlpha.100")} shadow={"sm"} roundedBottom={"1rem"}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"} flexDir={{base:"column", sm:"row" }}>
             <Text
                 bgGradient='linear(to-l, #FAC601, #FAA600)'
